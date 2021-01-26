@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PieceDiary</string>
+    <string name="test_string">hello world</string>
+</resources>
