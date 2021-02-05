@@ -1,4 +1,4 @@
-package com.silencefly96.piecediary.data.remote
+package com.silencefly96.piecediary.base.net
 
 import retrofit2.Call
 import retrofit2.Callback

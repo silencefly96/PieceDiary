@@ -1,4 +1,4 @@
-package com.silencefly96.piecediary.ui
+package com.silencefly96.piecediary.module.diary.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

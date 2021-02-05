@@ -1,4 +1,4 @@
-package com.silencefly96.piecediary.data.local.model
+package com.silencefly96.piecediary.base.local.model
 
 import androidx.room.Entity
 import androidx.room.Ignore
