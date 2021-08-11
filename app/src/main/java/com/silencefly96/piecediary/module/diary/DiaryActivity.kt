@@ -7,9 +7,11 @@ import com.silencefly96.piecediary.R
 import com.silencefly96.piecediary.databinding.ActivityDiaryBinding
 import com.silencefly96.piecediary.module.plan.PlanActivity
 
-private lateinit var binding: ActivityDiaryBinding
+
 
 class DiaryActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityDiaryBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDiaryBinding.inflate(layoutInflater)

@@ -7,9 +7,9 @@ import com.silencefly96.piecediary.databinding.ActivityPlanBinding
 import com.silencefly96.piecediary.module.plan.model.Injection
 import com.silencefly96.piecediary.other.extension.replaceFragment
 
-private lateinit var binding: ActivityPlanBinding
-
 class PlanActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityPlanBinding
 
     lateinit var planViewModel: PlanViewModel
 
@@ -27,6 +27,4 @@ class PlanActivity : AppCompatActivity() {
         replaceFragment(PlanDetailFragment.newInstance(planViewModel), binding.detailFrame.id)
 
     }
-
-
 }
